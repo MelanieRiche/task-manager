@@ -1,0 +1,62 @@
+// Global styles & variables
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:400,700');
+
+// https://coolors.co/f1e1c2-fcbc98
+
+$dutch-white: #f1e1c2;
+$peach-crayola: #fcbc98;
+$light-peach: #FCBC98; 
+$dark-peach: rgb(250, 153, 97);
+$light: #f8f8f8;
+
+// Update Bulma's global/component variables
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $peach-crayola;
+
+$link: $dark-peach;
+
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+
+html {
+    background: linear-gradient(to right top, $dutch-white, $peach-crayola);
+}
+
+html, body {
+    height: 100%;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-box {
+    min-height: 200px;
+    width: 100%;
+    max-width: 580px;
+    background: white;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+.title {
+    font-family: 'Lato';
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.white-box {
+    padding: 35px;
+    background: white;
+    border-radius: 5px;
+    width: 350px;
+    max-width: 350px;
+    
+}
